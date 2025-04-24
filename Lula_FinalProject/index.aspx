@@ -24,6 +24,20 @@
     <title></title>
 </head>
 <body>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Problem 42</a></li>
+      <li><a href="#">Problem 1028</a></li>
+      <li><a href="#">Problem 04</a></li>
+      <li><a href="#">Problem 65</a></li>
+    </ul>
+  </div>
+</nav>
     <form id="form1" runat="server">
         <div style="padding:20px;">
             <h2>Find Median of Two Sorted Arrays</h2>
