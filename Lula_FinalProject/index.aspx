@@ -21,6 +21,24 @@
 
             <asp:Label ID="lblResult" runat="server" Font-Bold="true" />
         </div>
+        <div>
+
+            <!-- Ethan's Problem 42 Section Below -->
+        <asp:Button ID="btnShowSolution" runat="server" Text="Problem 42" OnClick="btnShowSolution_Click" />
+        <br />
+
+        <asp:Label ID="lblDescription" runat="server" Font-Bold="true" Text=""></asp:Label>
+        <br />
+
+        <asp:Label ID="lblTestCase1" runat="server" Text=""></asp:Label>
+        <br />
+        <asp:Label ID="lblResult1" runat="server" Text=""></asp:Label>
+        <br />
+
+        <asp:Label ID="lblTestCase2" runat="server" Text=""></asp:Label>
+        <br />
+        <asp:Label ID="lblResult2" runat="server" Text=""></asp:Label>
+        </div>
     </form>
 </body>
 </html>
