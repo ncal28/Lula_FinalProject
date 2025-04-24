@@ -1,4 +1,4 @@
-﻿<!-- 
+<!-- 
 * File Name: Guylergm_Lula_FinalProject
 
 * Name: Gabe Guyler
