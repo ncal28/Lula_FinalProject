@@ -5,7 +5,7 @@ using System.Web;
 
 namespace Lula_FinalProject
 {
-    public class Solution
+    public class LeetCodeProblem65
     {
         public bool IsNumber(string s)
         {
