@@ -1,4 +1,21 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="Lula_FinalProject.index" %>
+<!-- 
+* File Name: Guylergm_Lula_FinalProject
+
+* Name: Gabe Guyler
+* email:  guylergm@mail.uc.edu
+* Assignment Number: Assignment Final
+* Due Date:   2025/04/29
+* Course #/Section:   2251-1_22 IS3050 001
+* Semester/Year:   Spring 2025
+* Brief Description of the assignment:  FinalProject
+
+* Brief Description of what this module does. Solves LeetCode 1028, "Recover a Tree From Preorder Traversal," 
+  takes a specially formatted string that represents a binary tree in preorder with dashes indicating depth, 
+  and reconstructs the original binary tree. The solution parses the string and rebuilds the tree structure node by node.
+* Citations: https://chatgpt.com/c/6807be4a-3250-800c-9c0f-b8847d2a8543 https://leetcode.com/problems/recover-a-tree-from-preorder-traversal/description/
+* Anything else that's relevant: Project compled in junction with 3 other partners
+ -->
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="Lula_FinalProject.index" %>
 
 <!DOCTYPE html>
 
@@ -22,22 +39,14 @@
             <asp:Label ID="lblResult" runat="server" Font-Bold="true" />
         </div>
         <div>
-
-            <!-- Ethan's Problem 42 Section Below -->
-        <asp:Button ID="btnShowSolution" runat="server" Text="Problem 42" OnClick="btnShowSolution_Click" />
+        <!-- Gabe's Problem 1028 Section -->
+        <asp:Button ID="btnShowSolution1028" runat="server" Text="Problem 1028" OnClick="btnShowSolution1028_Click" />
         <br />
-
-        <asp:Label ID="lblDescription" runat="server" Font-Bold="true" Text=""></asp:Label>
+        <asp:Label ID="lblDescription1028" runat="server" Font-Bold="true" Text=""></asp:Label>
         <br />
-
-        <asp:Label ID="lblTestCase1" runat="server" Text=""></asp:Label>
+        <asp:Label ID="lblTestCase1028" runat="server" Text=""></asp:Label>
         <br />
-        <asp:Label ID="lblResult1" runat="server" Text=""></asp:Label>
-        <br />
-
-        <asp:Label ID="lblTestCase2" runat="server" Text=""></asp:Label>
-        <br />
-        <asp:Label ID="lblResult2" runat="server" Text=""></asp:Label>
+        <asp:Label ID="lblResult1028" runat="server" Text=""></asp:Label>
         </div>
     </form>
 </body>
