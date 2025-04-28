@@ -18,7 +18,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using leetcode_problem_04;
+
 
 namespace Lula_FinalProject
 {
@@ -45,6 +45,7 @@ namespace Lula_FinalProject
             {
                 lblResult.Text = "Error: " + ex.Message;
             }
+        }
             /* Ethan's problem 42 below */
         protected void btnShowSolution_Click(object sender, EventArgs e)
         {

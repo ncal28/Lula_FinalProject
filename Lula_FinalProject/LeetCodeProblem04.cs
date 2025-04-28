@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace leetcode_problem_04
+namespace Lula_FinalProject
 {
     public class Problem4
     {
